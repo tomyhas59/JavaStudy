@@ -25,7 +25,7 @@ public class E02Switch {
 			System.out.println("나머지는 2입니다");
 		}
 
-		//long은 사용 불가능, int, char, String은 사용 가능
+		// long은 사용 불가능, int, char, String은 사용 가능
 		long ln = 100;
 
 //			switch(ln) {
@@ -34,7 +34,8 @@ public class E02Switch {
 //			}
 
 //		switch(iNum%3==0) {
-//        System.out.print("논리식도 안 되는군);
+//        System.out.print("논리식도 안 되는군); 
+//			산술식은 가능		 
 //	}
 
 		String title = "자바";
@@ -67,8 +68,37 @@ public class E02Switch {
 		case 1:
 		case 2:
 			System.out.println("겨울입니다.");
-			default: System.out.println("화창합니다.");
+		default:
+			System.out.println("화창합니다.");
 		}
+
+		/*
+		 * 시나리오] 국,영,수 점수의 평균값을 구하여 학점을 출력하는 프로그램을 작성하시오. 90점이상은 A학점... 60점 미만은 F학점을
+		 * 출력하면 된다. 단, switch문으로 작성하시오.
+		 */
+
+		int kor = 70, eng = 90, math = 95;
+
+		int avg = (kor + eng + math) / 3;
+
+		switch (avg / 10) {
+		case 9:
+			System.out.println("A");
+			break;
+		case 8:
+			System.out.println("B");
+			break;
+		case 7:
+			System.out.println("C");
+			break;
+		case 6:
+			System.out.println("D");
+			break;
+		default:
+			System.out.println("F");
+			break;
+		}
+
 	}
 
 }
