@@ -39,5 +39,10 @@ public class E01If01 {
 		System.out.println("하나의 문자를 입력하세요");
 		int asciiCode=System.in.read();
 		System.out.println("입력한 문자는:" + asciiCode);
+		
+		if(asciiCode >= 48 && asciiCode<=57) {
+			System.out.println("입력한 문자는 숫자입니다.");
+		}
+		
 	}
 }
