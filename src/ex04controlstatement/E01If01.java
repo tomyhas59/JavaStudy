@@ -42,6 +42,8 @@ public class E01If01 {
 		
 		if(asciiCode >= 48 && asciiCode<=57) {
 			System.out.println("입력한 문자는 숫자입니다.");
+		}else {
+			System.out.println("입력한 문자는 숫자가 아닙니다.");
 		}
 		
 	}
