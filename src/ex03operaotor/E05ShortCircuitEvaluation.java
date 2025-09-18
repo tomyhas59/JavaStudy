@@ -13,6 +13,7 @@ public class E05ShortCircuitEvaluation {
    System.out.println("result=" +result);
    System.out.println("num1= " + num1 + ", num2=" + num2);
    
+   //조건이 맞으면 뒤의 조건은 실행 x
 	}
 
 }
