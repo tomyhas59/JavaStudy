@@ -46,5 +46,8 @@ public class E01If01 {
 			System.out.println("입력한 문자는 숫자가 아닙니다.");
 		}
 		
+		if(asciiCode>='0' && asciiCode<='9') {
+			System.out.println("입력한 문자는 숫자입니다.[1]");
+		}
 	}
 }
