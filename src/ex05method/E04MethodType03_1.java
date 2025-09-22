@@ -17,7 +17,7 @@ public class E04MethodType03_1 {
 	
 	static void myWantSum(int start,int end) {
 	
-		int sum= IntStream.range(start, end+1).sum();
+		int sum= IntStream.rangeClosed(start, end).sum();
 		System.out.printf("%d~%d까지의 합은 : %d", start,end,sum);
 	}
 
