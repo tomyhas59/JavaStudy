@@ -22,6 +22,11 @@ public class E01OneDimArray01 {
 		}
 		System.out.println("===============================");
 
+		
+		/*
+		 인스턴스 배열 :기본 자료형이 아닌 인스턴스의 참조값을 
+		 			저장할 목적으로 생성한 배열
+		 */
 		String[] strArr = new String[3];
 		strArr[0] = "java";
 		strArr[1] = "jsp";
