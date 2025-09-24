@@ -1,5 +1,7 @@
 package ex07String;
 
+import java.util.Arrays;
+
 public class E02StringMethod4 {
 
 	public static void main(String[] args) {
@@ -92,6 +94,10 @@ public class E02StringMethod4 {
 
 		System.out.println(fileExtension);
 
+		String[] strArr=filename.split("\\.");
+		
+		System.out.println(Arrays.toString(strArr));
+		
 	}
 
 }
